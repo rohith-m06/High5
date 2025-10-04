@@ -63,6 +63,7 @@ firebase-debug.log
 firestore-debug.log
 ui-debug.log
 .firebaserc
+src/app/firebase.js
 
 # Logs
 logs/
