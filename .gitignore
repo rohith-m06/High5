@@ -57,13 +57,13 @@ next-env.d.ts
 Thumbs.db
 Desktop.ini
 
-# Firebase
+# Firebase credentials - DO NOT COMMIT
+src/app/firebase.js
 .firebase/
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
 .firebaserc
-src/app/firebase.js
 
 # Logs
 logs/
