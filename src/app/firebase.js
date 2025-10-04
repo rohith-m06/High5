@@ -1,18 +1,16 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";  
-
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+  apiKey: "AIzaSyDotxgV8aOS4M2HkZcDMKCpTHiivTJa7Ps",
+  authDomain: "high5-5439a.firebaseapp.com",
+  projectId: "high5-5439a",
+  storageBucket: "high5-5439a.firebasestorage.app",
+  messagingSenderId: "599692414013",
+  appId: "1:599692414013:web:aa0b9d6d94b1ee00c86e54",
+  measurementId: "G-GDFQE1WWP4"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
-   
+export const db = getFirestore(app);   

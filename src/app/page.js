@@ -1,12 +1,14 @@
-"use client";        // ← required for client-side Firebase calls
-
-import CommunityTab from "../app/components/CommunityTab";
+import PublicationsList from '../components/PublicationsList';
 
 export default function Home() {
   return (
-    <main style={{ maxWidth: 680, margin: "2rem auto", fontFamily: "sans-serif" }}>
-      <h1>High5 Community</h1>
-      <CommunityTab />
+    <main className="min-h-screen bg-gray-50">
+      <PublicationsList />
     </main>
   );
 }
+
+export const metadata = {
+  title: 'Space Biology Publications',
+  description: 'Browse space biology research publications',
+};
