@@ -1,0 +1,15 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'>
+  <defs>
+    <linearGradient id='bg' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' style='stop-color:rgb(6,182,212);stop-opacity:1' />
+      <stop offset='100%' style='stop-color:rgb(37,99,235);stop-opacity:1' />
+    </linearGradient>
+  </defs>
+  <rect width='800' height='600' fill='url(#bg)'/>
+  <circle cx='400' cy='200' r='100' fill='white' opacity='0.9'/>
+  <text x='400' y='230' font-family='Arial, sans-serif' font-size='80' text-anchor='middle'>🚀</text>
+  <text x='400' y='350' font-family='Arial, sans-serif' font-size='56' fill='white' text-anchor='middle' font-weight='bold'>High5</text>
+  <text x='400' y='410' font-family='Arial, sans-serif' font-size='28' fill='white' text-anchor='middle'>Space Community Platform</text>
+  <text x='400' y='480' font-family='Arial, sans-serif' font-size='20' fill='rgba(255,255,255,0.8)' text-anchor='middle'>Sample Attachment Image - Demo File</text>
+  <text x='400' y='520' font-family='Arial, sans-serif' font-size='16' fill='rgba(255,255,255,0.6)' text-anchor='middle'>Stored in /public/sample-image.svg</text>
+</svg>
